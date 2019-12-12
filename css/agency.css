@@ -114,6 +114,12 @@ img::-moz-selection {
   border-width: medium;
 }
 
+.btn-modal {
+  background-color: #3a89ff !important;
+  border-color: #3a89ff !important;
+  color: white;
+}
+
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
@@ -273,6 +279,14 @@ header.masthead .intro-text .intro-heading {
       Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
       'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
+  #portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    max-height: 110px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+  }
 }
 
 .service-heading {
@@ -280,9 +294,15 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+#portfolio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px;
+  margin: 0 0 30px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -347,6 +367,7 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
+  max-height: 110px;
   margin: 0 auto;
   padding: 25px;
   text-align: center;

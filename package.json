@@ -1,0 +1,43 @@
+{
+  "title": "Boris Chen 2019-2020 Portfolio",
+  "name": "boris-chen-portfolio-2019-2020",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch"
+  },
+  "description": "My portfolio consisting of past Front End Development/UI Design projects from 2019 to 2020.",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://startbootstrap.com/template-overviews/agency",
+  "license": "MIT",
+  "author": "Boris Chen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalZenChen2017/Boris-Chen-Portfolio-2020.git"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.10.2",
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "jquery.easing": "^1.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "7.0.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.9",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0"
+  }
+}

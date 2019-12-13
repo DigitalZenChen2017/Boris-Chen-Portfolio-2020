@@ -22,9 +22,9 @@
     "url": "https://github.com/DigitalZenChen2017/Boris-Chen-Portfolio-2020.git"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.10.2",
-    "bootstrap": "4.3.1",
-    "jquery": "3.4.1",
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
     "jquery.easing": "^1.4.1"
   },
   "devDependencies": {

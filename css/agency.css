@@ -114,10 +114,24 @@ img::-moz-selection {
   border-width: medium;
 }
 
+.btn-primary-2 {
+  background-color: #3a89ff !important;
+  border-color: #3a89ff !important;
+  color: white !important;
+}
+
+.btn-primary-2:active,
+.btn-primary-2:focus .btn-primary-2:hover {
+  background-color: #0457d4 !important;
+  border-color: #0457d4 !important;
+  color: white;
+}
+
 .btn-modal {
   background-color: #3a89ff !important;
   border-color: #3a89ff !important;
   color: white;
+  margin-top: -50px;
 }
 
 .btn-primary:active,
@@ -404,7 +418,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content {
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -480,6 +494,10 @@ header.masthead .intro-text .intro-heading {
   list-style: none;
 }
 
+.timeline-list li {
+  margin-bottom: 20px;
+}
+
 .timeline:before {
   position: absolute;
   top: 0;
@@ -530,6 +548,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .timeline > li .timeline-image {
+  text-align: center;
   position: absolute;
   z-index: 100;
   left: 0;
@@ -544,7 +563,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 14px;
   margin-top: 12px;
 }
@@ -593,7 +612,7 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .timeline > li .timeline-panel {
     float: left;

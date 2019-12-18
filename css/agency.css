@@ -291,7 +291,13 @@ header.masthead .intro-text .intro-heading {
     margin: 15px;
   }
   .page-section {
-    padding-top: 40px;
+    padding-top: 0px;
+  }
+  .page-section h2.section-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 

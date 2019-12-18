@@ -256,7 +256,7 @@ header.masthead .intro-text .intro-lead-in {
   word-spacing: 15px;
 }
 
-/* Mobile Header Styles < 768px */
+/* Tablet Header Styles < 768px */
 header.masthead .intro-text .intro-heading {
   display: block;
   text-align: left;
@@ -267,6 +267,40 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* ----------- iPhone X, 6/7/8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  header.masthead .intro-text .intro-heading {
+    display: block;
+    text-align: left;
+    font-size: 34px;
+  }
+  header.masthead .intro-text {
+    padding: 175px 0px 125px 0px;
+  }
+  header.masthead .intro-lead-in {
+    margin: 35px 0px;
+  }
+  .btn {
+    margin-top: 35px;
+  }
+  .btn-primary-2 {
+    margin: 15px;
+  }
+  .page-section {
+    padding-top: 40px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
 }
 
 @media (min-width: 768px) {

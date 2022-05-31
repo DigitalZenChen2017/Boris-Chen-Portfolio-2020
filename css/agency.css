@@ -60,6 +60,16 @@ h6 {
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+/* Mobile Devices Width > 320px */
+@media (max-width: 425px) {
+  .page-section {
+    padding: 50px;
+  }
+  .page-section h2.section-heading {
+    line-height: 150%
+  }
+}
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -603,9 +613,9 @@ header.masthead .intro-text .intro-heading {
 }
 
 .timeline > li .timeline-image h4 {
-  font-size: 12px;
-  line-height: 14px;
-  margin-top: 12px;
+  font-size: 8.25px;
+  line-height: 16px;
+  margin-top: 20px;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -667,9 +677,9 @@ header.masthead .intro-text .intro-heading {
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 18px;
-    margin-top: 16px;
+    margin-top: 24px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
@@ -693,7 +703,7 @@ header.masthead .intro-text .intro-heading {
   .timeline > li .timeline-image h4 {
     font-size: 18px;
     line-height: 26px;
-    margin-top: 30px;
+    margin-top: 40px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
@@ -713,7 +723,7 @@ header.masthead .intro-text .intro-heading {
     margin-left: -85px;
   }
   .timeline > li .timeline-image h4 {
-    margin-top: 40px;
+    margin-top: 48px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
